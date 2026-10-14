@@ -1,0 +1,28 @@
+# credentials and local config: never commit these
+config.h
+secrets.h
+*.secret
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# PyInstaller output of desktop-app/build_exe.bat
+desktop-app/build/
+desktop-app/dist/
+desktop-app/*.spec
+
+# desktop app writes its theme choice next to the code
+posture_os_theme.json
+
+# editor / OS
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+
+# created by the desktop app when it downloads logs from a device
+desktop-app/downloaded_logs/
