@@ -1,4 +1,4 @@
-# Wearable Motion Feedback
+# Wearable Posture Devices
 
 Firmware, documentation and development logs for two ESP32 wearables that buzz when a joint or the back moves past a set angle: a **wrist rehabilitation glove** and a **posture corrector**. They are separate projects that share a platform and some ideas, so their thresholds, formulas and pin maps differ on purpose.
 
