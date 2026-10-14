@@ -1,0 +1,7 @@
+customtkinter
+matplotlib
+numpy
+pandas
+pyserial
+# only needed to build the .exe with build_exe.bat
+pyinstaller
